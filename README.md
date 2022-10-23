@@ -3,7 +3,9 @@
 Exigencias basicas:
 
 -- Docker instalado corretamente.
+
 -- MySQL  instalado corretamente.
+
 -- JDK 11
 
 Para começar apenas limpe o projeto e build novamente, coloquei em Docker para facilitar a manipulação de banco de dados e também de um sevidor.
