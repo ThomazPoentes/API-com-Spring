@@ -11,6 +11,7 @@ Para começar apenas limpe o projeto e build novamente, coloquei em Docker para 
 Comando para iniciar o projeto:
 
 mvn clean install
+
 docker-compose up --build --force-recreate
 
 
