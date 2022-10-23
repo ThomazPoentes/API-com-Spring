@@ -35,8 +35,6 @@ create table pessoa (
     cep int
 );
 
-No documento PDF ao qual se diz como deve ser feita cada etapa, pede para que busquemos as informações do usuário através do email cadastrado, como achei desfuncional este método, tive a iniciativa de fazer um auto-incremento de ID para facilitar a busca, caso seja nescessário que realize a busca pelo email do usuário, é simples e rápido para se fazer a alteração.
-
 Seguindo com a base de dados, realize um INSERT para fazer os testes através do DB:
 
 insert into pessoa values(null, 'Thomaz', 'Poentes', 'thomazpoentes@hotmail.com', 
@@ -45,6 +43,17 @@ insert into pessoa values(null, 'Thomaz', 'Poentes', 'thomazpoentes@hotmail.com'
 Confira a base de dados:
 
 select * from pessoa;
+
+
+No documento PDF ao qual se diz como deve ser feita cada etapa, pede para que busquemos as informações do usuário através do email cadastrado, como achei desfuncional este método, tive a iniciativa de fazer um auto-incremento de ID para facilitar a busca, caso seja nescessário que realize a busca pelo email do usuário, é simples e rápido para se fazer a alteração.
+
+para seguir com a busca de usuário voce deve usar: 
+
+na página WEB: http://localhost:8080/pessoa/{numero do ID}
+
+No PostMan: localhost:8080/pessoa/:pessoaid  -- com isto você deve inserir o valor do ID no campo Path Variables em Values.
+
+
 
 Feito estes passos, siga os teste no PostMan com a collection anexada.
 
