@@ -1,0 +1,16 @@
+br\com\thomazpoentes\springbootcommysql\controller\PessoaController.class
+br\com\thomazpoentes\springbootcommysql\controller\dto\PessoaRs.class
+br\com\thomazpoentes\springbootcommysql\repository\PessoaCustomRepository.class
+br\com\thomazpoentes\springbootcommysql\viacep\ViaCEPChamada.class
+br\com\thomazpoentes\springbootcommysql\viacep\ViaCEP.class
+br\com\thomazpoentes\springbootcommysql\controller\CEPController.class
+br\com\thomazpoentes\springbootcommysql\repository\PessoaRepository.class
+br\com\thomazpoentes\springbootcommysql\model\Pessoa.class
+br\com\thomazpoentes\springbootcommysql\viacep\CEP.class
+br\com\thomazpoentes\springbootcommysql\controller\controller.class
+br\com\thomazpoentes\springbootcommysql\controller\dto\PessoaRq.class
+br\com\thomazpoentes\springbootcommysql\model\Endereco.class
+br\com\thomazpoentes\springbootcommysql\SpringBootComMysqlApplication.class
+br\com\thomazpoentes\springbootcommysql\viacep\ViaCEPBase.class
+br\com\thomazpoentes\springbootcommysql\viacep\ViaCEPEvents.class
+br\com\thomazpoentes\springbootcommysql\viacep\ViaCEPException.class
