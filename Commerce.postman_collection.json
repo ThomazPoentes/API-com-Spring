@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "7b0599c7-0843-471c-9831-75316a7b0d25",
+		"name": "Commerce",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24011614"
+	},
+	"item": [
+		{
+			"name": "Get Person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/pessoa/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put Save Person",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"nome\": \"Sebastian\",\r\n\"sobrenome\": \"Batista\",\r\n\"email\": \"thomazpoentes2105\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/pessoa/:pessoaid",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoa",
+						":pessoaid"
+					],
+					"variable": [
+						{
+							"key": "pessoaid",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Save Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\"nome\": \"Sebastian\",\r\n\"sobrenome\": \"Batista\",\r\n\"email\": \"thomazpoentes21051995@gmail.com\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/pessoa/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoa",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delet Person",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 6\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/pessoa/:pessoaid",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pessoa",
+						":pessoaid"
+					],
+					"variable": [
+						{
+							"key": "pessoaid",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET CEP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getCep/02813000",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getCep",
+						"02813000"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
