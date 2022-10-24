@@ -31,7 +31,9 @@ iniciei com npm e depois start com o docker
 
 Query para a criação da tabalea no formato correto para o uso da minha aplicação:
 
+```query
 - create table pessoa ( cd_pessoa int primary key auto_increment not null, nome varchar(200), sobrenome varchar(200), email varchar(200), Logradouro varchar(200), número int, bairro varchar(200), cidade varchar(200), estado varchar(200), cep int );
+```
 
 Seguindo com a base de dados, realize um INSERT para fazer os testes através do DB:
 
