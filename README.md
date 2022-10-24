@@ -37,11 +37,11 @@ Seguindo com a base de dados, realize um INSERT para fazer os testes através do
 
 ## Querys
 ```querys
-- insert into pessoa values(null, 'Thomaz', 'Poentes', 'thomazpoentes@hotmail.com', 'Rua Ana Moreira dos Santos Mattos', 68 ,'Jardim Paulistano', 'São Paulo', 'SP', 0281300);
+insert into pessoa values(null, 'Thomaz', 'Poentes', 'thomazpoentes@hotmail.com', 'Rua Ana Moreira dos Santos Mattos', 68 ,'Jardim Paulistano', 'São Paulo', 'SP', 0281300);
 
 Confira a base de dados:
 
-- select * from pessoa;
+select * from pessoa;
 ```
 
 No documento PDF ao qual se diz como deve ser feita cada etapa, pede para que busquemos as informações do usuário através do email cadastrado, como achei desfuncional este método, tive a iniciativa de fazer um auto-incremento de ID para facilitar a busca, caso seja nescessário que realize a busca pelo email do usuário, é simples e rápido para se fazer a alteração.
