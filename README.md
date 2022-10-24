@@ -56,7 +56,7 @@ na página WEB:
 
 No PostMan: 
 ```postman
-- localhost:8080/pessoa/:pessoaid 
+localhost:8080/pessoa/:pessoaid 
 ```
 
 - com isto você deve inserir o valor do ID no campo Path Variables em Values.
