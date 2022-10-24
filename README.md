@@ -38,9 +38,10 @@ Seguindo com a base de dados, realize um INSERT para fazer os testes através do
 ## Querys
 ```querys
 insert into pessoa values(null, 'Thomaz', 'Poentes', 'thomazpoentes@hotmail.com', 'Rua Ana Moreira dos Santos Mattos', 68 ,'Jardim Paulistano', 'São Paulo', 'SP', 0281300);
-
+```
 Confira a base de dados:
 
+```querys
 select * from pessoa;
 ```
 
