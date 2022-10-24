@@ -17,7 +17,7 @@ Comando para iniciar o projeto:
 
 ## Iniciando o Projeto
 
-iniciei com npm e depois start com o docker
+inicie com npm e depois start com o docker
 
 ```bash
   mvn clean install
